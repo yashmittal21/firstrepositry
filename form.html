@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+	<style>
+		button{
+			background-color: white;
+			padding :10px;
+		}
+		button:hover{
+			background-color: green; 
+			font-weight:bold;
+		}
+		@media (min-width: 600px) {
+			body{
+				background-color: aqua;
+			}
+		}
+
+		@media (max-width: 599px) {
+			body{
+				background-color: blue;
+			}
+		}
+	</style>
+</head>
+<body style="background-color: lightblue">
+	<form>
+		<input type = "text" placeholder="your name" name ="candidate name">
+		<br>
+		<input type = "integer" placeholder="age" name ="candidate age">
+		<br>
+		<input type = "password" placeholder="enter your password" name ="candidate password">
+		<br>
+		<h2>math ques</h2>
+		<br>
+		4+9=?<br>
+		<input type="radio" value="7" name="ans">7<br>
+		<input type="radio" value="9" name="ans">9<br>
+		<input type="radio" value="13" name="ans">13<br>
+		<input type="radio" value="none of these" name="ans">none of these<br>
+		<button>Check ans</button>
+		<input type="Submit" value="Submit">
+	</form>
+</body>
+</html>
